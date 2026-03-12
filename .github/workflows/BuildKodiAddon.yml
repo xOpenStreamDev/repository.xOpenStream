@@ -80,6 +80,8 @@ jobs:
                     root.attrib['version'] = f"{version}~nightly"
                     addon_id = root.attrib.get('id')
                     root.attrib['id'] = f"{addon_id}-nightly"
+                    name = root.attrib.get('name')
+                    root.attrib['name'] = f"{name}-nightly"
                     tree.write(os.path.join(p_addon_path, "addon.xml"))
                     os.rename(p_addon_path, f"{p_addon_path}-nightly")
                     return f"{addon_id}-nightly"
