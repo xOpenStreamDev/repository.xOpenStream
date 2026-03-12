@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.xOpenStream" name="repository.xOpenStream" version="1.2.0" provider-name="xOpenStream">
+    <extension point="xbmc.addon.repository" name="xOpenStream Repository">
+		<dir>
+		    <info compressed="false">https://raw.githubusercontent.com/xOpenStream/repository.xOpenStream/main/zips/addons.xml</info>
+		    <checksum>https://raw.githubusercontent.com/xOpenStream/repository.xOpenStream/main/zips/addons.xml.md5</checksum>
+		    <datadir zip="true">https://raw.githubusercontent.com/xOpenStream/repository.xOpenStream/main/zips/</datadir>
+		</dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>repository.xOpenStream</summary>
+        <description>Kodi Plugins</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
