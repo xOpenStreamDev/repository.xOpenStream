@@ -1,4 +1,4 @@
-<addon id="plugin.video.xstream-nightly" name="xStream" version="2026.02.11~nightly" provider-name="xOpenStream">
+<addon id="plugin.video.xstream-nightly" name="xStream-nightly" version="2026.02.11~nightly" provider-name="xOpenStream">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
