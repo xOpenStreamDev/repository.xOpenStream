@@ -56,7 +56,7 @@
 			<clearlogo>resources/clearlogo.png</clearlogo>
 		</assets>
 	</extension>
-</addon><addon id="plugin.video.xship" version="2026.03.01" name="[B]xShip[/B]" provider-name="xOpenStream">
+</addon><addon id="plugin.video.xship" version="2026.03.01" name="xShip" provider-name="xOpenStream">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
