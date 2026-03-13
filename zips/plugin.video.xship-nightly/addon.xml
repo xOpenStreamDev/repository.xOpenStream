@@ -1,4 +1,4 @@
-<addon id="plugin.video.xship-nightly" version="2026.03.01~nightly" name="[B]xShip[/B]" provider-name="xOpenStream">
+<addon id="plugin.video.xship-nightly" version="2026.03.01~nightly" name="[B]xShip[/B]-nightly" provider-name="xOpenStream">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
